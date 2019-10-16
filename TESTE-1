@@ -1,0 +1,10 @@
+CREATE TABLE teste(
+id int NOT NULL auto_increment,
+nome varchar(30) NOT NULL,
+nascimento DATE,
+sexo enum('M','F'),
+peso decimal(5,2),
+altura decimal(3,2),
+nacionalidade varchar(20) DEFAULT 'Brazil',
+primary key(id)
+)DEFAULT CHARSET = utf8;
